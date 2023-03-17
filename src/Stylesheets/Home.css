@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Teko");
+
+.content {
+    width: 100%;
+    display: inline-flex;
+    font-family: "Teko", serif;
+    font-size: 2em;
+}
+
+/*LEFT*/
+
+.content .left {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.content .left span {
+    padding: 10px;
+    background-color: #22aadd;
+}
+
+.content .content-left {
+    padding: 200px;
+}
+
+/*RIGHT*/
+
