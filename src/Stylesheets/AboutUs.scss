@@ -1,0 +1,27 @@
+@import "shared";
+
+.profileFigure {
+  text-align: center;
+  width: 100%;
+}
+
+.profileFigure a {
+  font-family: $main-title;
+  font-size: 30px;
+  color: black;
+}
+
+.profileFigure img {
+  width: 200px;
+}
+
+.team {
+  display: flex;
+  width: 100%;
+}
+
+.about-us {
+  font-family: $main-title;
+  margin-right: 10%;
+  margin-left: 10%;
+}
