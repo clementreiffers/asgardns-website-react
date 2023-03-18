@@ -3,7 +3,7 @@
 .banner {
     width: 100%;
     color: black;
-    background-color: white;
+    background-color: transparent;
     display: inline-flex;
     font-family: "Teko", serif;
 }
@@ -22,10 +22,10 @@
 
 .banner .left h1 {
     vertical-align: middle;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
-.banner .left h1 span {
+.asgard-dns-name {
     color: #22aadd;
 }
 

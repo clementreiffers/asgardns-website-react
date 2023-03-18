@@ -13,16 +13,28 @@
     float: left;
     width: 100%;
     text-align: center;
+    top: 0;
 }
 
-.content .left span {
+.asgard-dns-name {
+    color: #22aadd;
+}
+
+.download-btn {
     padding: 10px;
     background-color: #22aadd;
 }
 
 .content .content-left {
-    padding: 200px;
+    padding: 50px;
 }
 
 /*RIGHT*/
 
+.content .right {
+    padding: 50px;
+}
+
+.content .right img {
+    width: 400px;
+}
