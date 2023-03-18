@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Teko");
 
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%;
+    }
+    100% {
+        delay: 10%;
+    }
+}
+
 .content {
     width: 100%;
     display: inline-flex;
@@ -16,6 +28,7 @@
     top: 0;
 }
 
+
 .asgard-dns-name {
     color: #22aadd;
 }
@@ -26,15 +39,17 @@
 }
 
 .content .content-left {
-    padding: 50px;
+    padding: 10%;
 }
 
 /*RIGHT*/
 
 .content .right {
-    padding: 50px;
+    padding: 10%;
+    float: right;
+    right: 0;
 }
 
 .content .right img {
-    width: 400px;
+    width: 500px;
 }

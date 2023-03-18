@@ -1,7 +1,6 @@
 import React from "react";
 import Banner from "../Components/Banner";
 import "../Stylesheets/Home.css";
-import logo from "../Images/logo.png";
 
 const Home = () => (
   <div>
@@ -14,11 +13,8 @@ const Home = () => (
             against online threats
           </h1>
           <p>Protect your computer from threats for only 3€ per months !</p>
-          <span className={"download-btn"}>Download the DNS server!</span>
+          <span className={"download-btn"}>Register here to use the DNS!</span>
         </div>
-      </div>
-      <div className={"right"}>
-        <img src={logo} alt={"logo"} />
       </div>
     </div>
   </div>
