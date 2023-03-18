@@ -16,14 +16,8 @@ const Banner = () => (
       <Link to={"/"} className={"link-banner"}>
         Home
       </Link>
-      <Link to={"/download"} className={"link-banner"}>
-        Download
-      </Link>
       <Link to={"/about-us"} className={"link-banner"}>
         About Us
-      </Link>
-      <Link to={"/princing"} className={"link-banner"}>
-        Pricing
       </Link>
     </div>
   </nav>
