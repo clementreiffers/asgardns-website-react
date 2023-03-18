@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Components/Banner";
-import "../Stylesheets/Home.css";
+import "../Stylesheets/Home.scss";
 
 const Home = () => (
   <div>

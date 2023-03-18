@@ -1,0 +1,44 @@
+@import "shared";
+
+.content {
+  width: 100%;
+  display: inline-flex;
+  font-family: $main-title;
+  font-size: 2em;
+}
+
+/*LEFT*/
+
+.content .left {
+  float: left;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+
+
+.asgard-dns-name {
+  color: $main-color;
+
+}
+
+.download-btn {
+  padding: 10px;
+  background-color: $main-color;
+}
+
+.content .content-left {
+  padding: 10%;
+}
+
+/*RIGHT*/
+
+.content .right {
+  padding: 10%;
+  float: right;
+  right: 0;
+}
+
+.content .right img {
+  width: 500px;
+}
