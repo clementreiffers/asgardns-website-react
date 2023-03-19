@@ -32,7 +32,7 @@ const linkedinCamille = {
 
 const ShowProfile = (props: { profile: profileType }) => (
   <figure className={"profileFigure"}>
-    <a href={props.profile.link}>
+    <a href={props.profile.link} target={"_blank"} rel="noreferrer">
       <img src={props.profile.photo} alt={""} />
       <figcaption>{props.profile.name}</figcaption>
     </a>
