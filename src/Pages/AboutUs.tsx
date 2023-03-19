@@ -52,8 +52,8 @@ export const AboutUs = () => (
       <ShowProfile profile={linkedinSonia} />
     </div>
     <p>
-      don't hesitate to contact us or bring us some experiences you had with our
-      service!
+      Don't hesitate to contact us! We would love to hear about your experiences
+      with our service!
     </p>
   </div>
 );

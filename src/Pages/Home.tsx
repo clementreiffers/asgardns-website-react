@@ -75,7 +75,7 @@ const Home = () => {
               Asgar<span className={"asgard-dns-name"}>DNS</span>: Your shield
               against online threats
             </h1>
-            <p>Protect your computer from threats for only 3€ per months !</p>
+            <p>Protect your computer from threats for only 3€ per month !</p>
             <div className={"downloads"}>
               <DownloadContent os={"Windows"} />
               <DownloadContent os={"MacOS"} />
