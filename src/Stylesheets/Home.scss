@@ -24,6 +24,10 @@
 
 .downloads {
   display: inline-flex;
+  @media screen and (max-width: $small-screen) {
+    display: list-item;
+    list-style: none;
+  }
 }
 
 .download-content {
@@ -46,6 +50,14 @@
   background-color: black;
   color: white;
   padding: 10px;
+}
+
+@media screen and (max-width: $small-screen) {
+  .download-btn, .github-btn {
+    padding: 5px;
+    width: 100%;
+    font-size: 30px;
+  }
 }
 
 .github-btn:hover {
