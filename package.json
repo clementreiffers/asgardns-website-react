@@ -1,6 +1,6 @@
 {
   "name": "asgardns-website",
-  "homepage": ".",
+  "homepage": "https://clementreiffers.github.io/asgardns",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

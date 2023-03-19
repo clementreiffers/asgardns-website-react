@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-✨✨ [Go to the Website Demo](https://clementreiffers.github.io/asgardns-website-react/) ✨✨
+[//]: # (✨✨ [Go to the Website Demo]&#40;https://clementreiffers.github.io/asgardns-website-react/&#41; ✨✨)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
