@@ -9,11 +9,10 @@ const App = () => (
     <BrowserRouter>
       <Banner />
       <Routes>
-        <Route path={"/"} element={<Home />} />
+        <Route path={"/asgardns-website-react"} element={<Home />} />
         <Route path={"/about-us"} element={<AboutUs />} />
       </Routes>
     </BrowserRouter>
   </>
 );
-
 export default App;
