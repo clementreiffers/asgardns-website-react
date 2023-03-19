@@ -7,11 +7,17 @@ import { ROUTES } from "../Constants";
 
 const Banner = () => (
   <nav className={"banner"}>
-    <div className={"left"}>
-      <img src={logo} alt={"logo"} />
-      <h1>
-        Asgar<span className={"asgard-dns-name"}>DNS</span>
-      </h1>
+    <div>
+      <Link
+        to={ROUTES.homepage}
+        className={"left"}
+        style={{ textDecoration: "none", color: "black" }}
+      >
+        <img src={logo} alt={"logo"} />
+        <h1>
+          Asgar<span className={"asgard-dns-name"}>DNS</span>
+        </h1>
+      </Link>
     </div>
     <div className={"right"}>
       <Link to={ROUTES.homepage} className={"link-banner"}>
