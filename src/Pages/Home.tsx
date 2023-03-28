@@ -5,6 +5,7 @@ import security from "../Images/security.svg";
 import ai from "../Images/ai.svg";
 import gdpr from "../Images/gdpr.svg";
 import cloud from "../Images/cloud.svg";
+import logo from "../Images/new_logo.png";
 
 const WindowIcon = (
   <img src={WIN.img} alt={""} style={{ width: 25, verticalAlign: "middle" }} />
@@ -63,9 +64,10 @@ const DownloadContent = (props: { os: string }) => {
 
 const Home = () => {
   return (
-    <div>
+    <div className={"home"}>
       <div className={"content"}>
         <div className={"left"}>
+          <img src={logo} alt={""} className={"content-logo"} />
           <div className={"content-left"}>
             <h1 className={"main-title"}>
               Asgar<span className={"asgard-dns-name"}>DNS</span>: Your shield

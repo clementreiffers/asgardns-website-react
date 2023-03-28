@@ -12,7 +12,7 @@ const Banner = () => (
       <Link
         to={ROUTES.homepage}
         className={"left"}
-        style={{ textDecoration: "none", color: "black" }}
+        style={{ textDecoration: "none", color: "white" }}
       >
         <img src={logo} alt={"logo"} />
         <h1>

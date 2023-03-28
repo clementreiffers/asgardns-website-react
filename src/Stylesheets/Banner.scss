@@ -1,12 +1,14 @@
 @import "shared";
 
 .banner {
-  color: black;
+  color: white;
   display: inline-flex;
   font-family: $main-title;
   backdrop-filter: blur(10px);
   width: 100%;
   position: fixed;
+  background-color: rgba(34, 101, 136, 0.8);
+  //background-color: white;
 }
 
 /*LEFT*/
@@ -18,8 +20,9 @@
 
 
 .banner .left img {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
+  padding: 15%;
 }
 
 .banner .left h1 {
@@ -42,7 +45,7 @@
 
 .link-banner {
   padding: 20px;
-  color: black;
+  color: white;
   font-size: 1.5em;
 }
 

@@ -17,20 +17,25 @@ const ShowProfile = (props: { profile: profileType }) => (
 );
 
 export const AboutUs = () => (
-  <div className={"about-us"}>
-    <h1>About Us</h1>
-    <h2>
-      We are a team of 4 people behind AsgarDNS, you'll find our LinkedIn below:
-    </h2>
-    <div className={"team"}>
-      <ShowProfile profile={LINKEDIN_CLEMENT} />
-      <ShowProfile profile={LINKEDIN_MAELLE} />
-      <ShowProfile profile={LINKEDIN_CAMILLE} />
-      <ShowProfile profile={LINKEDIN_SONIA} />
+  <div className={"home"}>
+    <div className={"content"}>
+      <div className={"left"}>
+        <h1>About Us</h1>
+        <h2>
+          We are a team of 4 people behind AsgarDNS, you'll find our LinkedIn
+          below:
+        </h2>
+        <div className={"team"}>
+          <ShowProfile profile={LINKEDIN_CLEMENT} />
+          <ShowProfile profile={LINKEDIN_MAELLE} />
+          <ShowProfile profile={LINKEDIN_CAMILLE} />
+          <ShowProfile profile={LINKEDIN_SONIA} />
+        </div>
+        <p>
+          Don't hesitate to contact us! We would love to hear about your
+          experiences with our service!
+        </p>
+      </div>
     </div>
-    <p>
-      Don't hesitate to contact us! We would love to hear about your experiences
-      with our service!
-    </p>
   </div>
 );
