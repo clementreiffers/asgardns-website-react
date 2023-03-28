@@ -3,6 +3,7 @@ import React from "react";
 import "../Stylesheets/Banner.scss";
 import logo from "../Images/logo-only.png";
 import { Link } from "react-router-dom";
+import BannerLinks from "./BannerLinks";
 import { ROUTES } from "../Constants";
 
 const Banner = () => (
@@ -11,7 +12,7 @@ const Banner = () => (
       <Link
         to={ROUTES.homepage}
         className={"left"}
-        style={{ textDecoration: "none", color: "black" }}
+        style={{ textDecoration: "none", color: "white" }}
       >
         <img src={logo} alt={"logo"} />
         <h1>
@@ -20,12 +21,7 @@ const Banner = () => (
       </Link>
     </div>
     <div className={"right"}>
-      <Link to={ROUTES.homepage} className={"link-banner"}>
-        Home
-      </Link>
-      <Link to={ROUTES.aboutus} className={"link-banner"}>
-        About Us
-      </Link>
+      <BannerLinks />
     </div>
   </nav>
 );

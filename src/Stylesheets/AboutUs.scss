@@ -1,34 +1,184 @@
 @import "shared";
 
-.profileFigure {
+.content {
+  width: 90%;
+  display: inline-flex;
+  font-family: $main-title;
+  font-size: 2.5em;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  background-color: #226588;
+  color: white;
+  @media screen and (max-width: $small-screen) {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/*LEFT*/
+
+.content .left {
+  float: left;
+  width: 100%;
   text-align: center;
+}
+
+
+.asgard-dns-name {
+  color: $main-color;
+}
+
+.downloads {
+  display: inline-flex;
+  @media screen and (max-width: $small-screen) {
+    display: list-item;
+    list-style: none;
+  }
+}
+
+.download-content {
+  padding: 10px;
+}
+
+.download-btn {
+  padding: 10px;
+  background-color: $main-color;
+  color: white;
+  text-decoration: none;
   width: 100%;
 }
 
-.profileFigure a {
-  font-family: $main-title;
-  font-size: 30px;
+.download-btn:hover {
+  background-color: black;
+}
+
+.github-btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+@media screen and (max-width: $small-screen) {
+  .download-btn, .github-btn {
+    padding: 5px;
+    width: 100%;
+    font-size: 30px;
+  }
+}
+
+.github-btn:hover {
+  background-color: white;
   color: black;
 }
 
-.profileFigure img {
-  width: 200px;
+.content .content-left {
+  padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
   @media screen and (max-width: $small-screen) {
-    width: 150px;
+    padding-top: 15%;
+  }
+}
+
+/*RIGHT*/
+
+.content .right {
+  padding: 10%;
+  float: right;
+  right: 0;
+}
+
+.content .right img {
+  width: 500px;
+}
+
+
+.main-title {
+  background-color: white;
+  color: black;
+  @media screen and (max-width: $small-screen) {
+    font-size: 1em;
+  }
+}
+
+.important, .important-content {
+  border-radius: 20px 20px 15px 15px;
+}
+
+.important-title {
+  background-color: #003a64;
+  color: #ff9900;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.important-content {
+  background-color: white;
+  border: #003a64;
+  box-shadow: -1px 2px 5px 1px #003a64;
+  color: #003a64;
+}
+
+.important-content .inline {
+  display: inline-flex;
+}
+
+.inline-left {
+  text-align: left;
+  width: 100%;
+}
+
+.inline-right {
+  right: 0;
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+
+
+.inline-right, .inline-left {
+  @media screen and (max-width: $small-screen) {
+    text-align: left;
+    float: left;
+    padding: 30px;
+  }
+}
+
+.image-container {
+  @media screen and (max-width: $small-screen) {
+    display: none;
+  }
+}
+
+.inline-right img, .inline-left img {
+  width: 250px;
+  @media screen and (max-width: $small-screen) {
+    display: none;
+    width: 0;
+  }
+}
+
+.home {
+  background-color: #e0f2ff;
+}
+
+.content-logo {
+  background-color: white;
+  border-radius: 100px;
+  width: 15%;
+  @media screen and (max-width: $small-screen) {
+    display: none;
   }
 }
 
 .team {
-  display: flex;
-  width: 100%;
+  display: inline-flex;
   @media screen and (max-width: $small-screen) {
     flex-direction: column;
   }
 }
 
-.about-us {
-  font-family: $main-title;
-  margin-right: 10%;
-  margin-left: 10%;
+.team img {
+  width: 200px;
 }
-

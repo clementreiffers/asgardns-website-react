@@ -1,22 +1,19 @@
 import React from "react";
 import "../Stylesheets/Home.scss";
-import { LINUX_LINK, MACOS_LINK, WINDOWS_LINK } from "../Constants";
+import { LINUX, MACOS, WIN } from "../Constants";
+import security from "../Images/security.svg";
+import ai from "../Images/ai.svg";
+import gdpr from "../Images/gdpr.svg";
+import cloud from "../Images/cloud.svg";
+import logo from "../Images/new_logo.png";
 
 const WindowIcon = (
-  <img
-    src={
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Windows_logo_-_2021_%28White%29.svg/800px-Windows_logo_-_2021_%28White%29.svg.png"
-    }
-    alt={""}
-    style={{ width: 25, verticalAlign: "middle" }}
-  />
+  <img src={WIN.img} alt={""} style={{ width: 25, verticalAlign: "middle" }} />
 );
 
 const MacOSIcon = (
   <img
-    src={
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Apple_logo_white.svg/505px-Apple_logo_white.svg.png?20220821122232"
-    }
+    src={MACOS.img}
     alt={""}
     style={{ width: 25, verticalAlign: "middle" }}
   />
@@ -24,7 +21,7 @@ const MacOSIcon = (
 
 const LinuxIcon = (
   <img
-    src={"https://cdn.onlinewebfonts.com/svg/img_237140.png"}
+    src={LINUX.img}
     alt={""}
     style={{ filter: "invert(1)", width: 25, verticalAlign: "middle" }}
   />
@@ -45,9 +42,9 @@ const GitHubIcon = () => (
 );
 const DownloadContent = (props: { os: string }) => {
   const link: { [key: string]: string } = {
-    Windows: WINDOWS_LINK,
-    Linux: LINUX_LINK,
-    MacOS: MACOS_LINK,
+    Windows: WIN.link,
+    Linux: LINUX.link,
+    MacOS: MACOS.link,
   };
   const icon: { [key: string]: any } = {
     Windows: WindowIcon,
@@ -67,11 +64,12 @@ const DownloadContent = (props: { os: string }) => {
 
 const Home = () => {
   return (
-    <div>
+    <div className={"home"}>
       <div className={"content"}>
         <div className={"left"}>
+          <img src={logo} alt={""} className={"content-logo"} />
           <div className={"content-left"}>
-            <h1>
+            <h1 className={"main-title"}>
               Asgar<span className={"asgard-dns-name"}>DNS</span>: Your shield
               against online threats
             </h1>
@@ -88,7 +86,58 @@ const Home = () => {
                 See our GitHub
               </a>
             </div>
-            <div></div>
+            <div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>
+                  Protect Yourself from internet Threat
+                </h2>
+                <div className={"inline"}>
+                  <p className={"inline-left"}>
+                    By using our system, you will be protected from all bad
+                    things on internet such as malwares and other.
+                  </p>
+                  <div className={"inline-right image-container"}>
+                    <img src={security} alt={""} />
+                  </div>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Boosted by AI</h2>
+                <div className={"inline"}>
+                  <div className={"inline-left image-container"}>
+                    <img src={ai} alt={""} />
+                  </div>
+                  <p className={"inline-right"}>
+                    Everything is analyzed upstream. By this way you will be
+                    protected from all Malwares.
+                  </p>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Respect GDPR</h2>
+                <div className={"inline"}>
+                  <p className={"inline-left"}>
+                    We'll Never collect any data on users. We only analyze URLs
+                    that our system doesn't know.
+                  </p>
+                  <div className={"inline-right image-container"}>
+                    <img src={gdpr} alt={""} />
+                  </div>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Computed by cloud</h2>
+                <div className={"inline"}>
+                  <div className={"inline-left image-container"}>
+                    <img src={cloud} alt={""} />
+                  </div>
+                  <p className={"inline-right"}>
+                    All calculations are made in an AWS Cloud, by this way
+                    you'll be never impacted by any calculation time!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
