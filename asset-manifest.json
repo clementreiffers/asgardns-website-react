@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/asgardns-website-react/static/css/main.3dbb0488.css",
-    "main.js": "/asgardns-website-react/static/js/main.851aa4f3.js",
+    "main.js": "/asgardns-website-react/static/js/main.0f611003.js",
     "static/js/787.d384a8a7.chunk.js": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js",
     "static/media/cloud.svg": "/asgardns-website-react/static/media/cloud.4ac3dfd2781413abac7c7074d5934af7.svg",
     "static/media/new_logo.png": "/asgardns-website-react/static/media/new_logo.8bf7cb311299727d3345.png",
@@ -10,11 +10,11 @@
     "static/media/security.svg": "/asgardns-website-react/static/media/security.763a63a7a2f21cb1f936c6cf094b7885.svg",
     "index.html": "/asgardns-website-react/index.html",
     "main.3dbb0488.css.map": "/asgardns-website-react/static/css/main.3dbb0488.css.map",
-    "main.851aa4f3.js.map": "/asgardns-website-react/static/js/main.851aa4f3.js.map",
+    "main.0f611003.js.map": "/asgardns-website-react/static/js/main.0f611003.js.map",
     "787.d384a8a7.chunk.js.map": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbb0488.css",
-    "static/js/main.851aa4f3.js"
+    "static/js/main.0f611003.js"
   ]
 }
