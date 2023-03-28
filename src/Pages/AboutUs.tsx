@@ -9,7 +9,12 @@ import { profileType } from "../types";
 
 const ShowProfile = (props: { profile: profileType }) => (
   <figure className={"profileFigure"}>
-    <a href={props.profile.link} target={"_blank"} rel="noreferrer">
+    <a
+      href={props.profile.link}
+      target={"_blank"}
+      rel="noreferrer"
+      style={{ color: "white", textDecoration: "none" }}
+    >
       <img src={props.profile.photo} alt={""} />
       <figcaption>{props.profile.name}</figcaption>
     </a>
