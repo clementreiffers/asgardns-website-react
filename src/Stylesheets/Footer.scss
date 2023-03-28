@@ -1,0 +1,53 @@
+@import "shared";
+
+.inline-footer {
+  background-color: #123b61;
+  display: inline-flex;
+  width: 100%;
+  color: white;
+  font-family: "Adobe Arabic", serif;
+  font-size: 23px;
+
+}
+
+.footer-left {
+  width: 100%;
+  float: left;
+  text-align: right;
+  padding-left: 100px;
+  padding-top: 30px;
+  @media screen and (max-width: $small-screen) {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: white;
+}
+
+.footer-right {
+  width: 100%;
+  float: right;
+  padding-left: 100px;
+  padding-top: 30px;
+  @media screen and (max-width: $small-screen) {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+}
+
+.footer-name {
+  color: white;
+  background-color: #002139;
+  padding: 10px;
+  text-align: center;
+  font-family: "Adobe Arabic", serif;
+  font-size: 23px;
+}

@@ -4,10 +4,18 @@ import { ROUTES } from "../Constants";
 
 const BannerLinks = () => (
   <>
-    <Link to={ROUTES.homepage} className={"link-banner"}>
+    <Link
+      to={ROUTES.homepage}
+      className={"link-banner"}
+      style={{ color: "white", textDecoration: "none" }}
+    >
       Home
     </Link>
-    <Link to={ROUTES.aboutus} className={"link-banner"}>
+    <Link
+      to={ROUTES.aboutus}
+      className={"link-banner"}
+      style={{ color: "white", textDecoration: "none" }}
+    >
       About Us
     </Link>
   </>
