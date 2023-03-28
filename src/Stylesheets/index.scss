@@ -6,9 +6,19 @@ body, html {
 
 body {
   margin: 0;
-  background-image: $background_image;
+  background-color: #226588;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.main-title {
+  background-color: white;
+}
+
+.important-title {
+  background-color: #003a64;
+  color: #ff9900;
+  border-radius: 15px;
 }

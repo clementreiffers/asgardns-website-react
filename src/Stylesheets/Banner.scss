@@ -3,9 +3,10 @@
 .banner {
   width: 100%;
   color: black;
-  background-color: transparent;
   display: inline-flex;
   font-family: $main-title;
+  backdrop-filter: blur(10px);
+  position: fixed;
 }
 
 /*LEFT*/
