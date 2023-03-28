@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/asgardns-website-react/static/css/main.3dbb0488.css",
-    "main.js": "/asgardns-website-react/static/js/main.0f611003.js",
+    "main.css": "/asgardns-website-react/static/css/main.cd824e0a.css",
+    "main.js": "/asgardns-website-react/static/js/main.5984016e.js",
     "static/js/787.d384a8a7.chunk.js": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js",
+    "static/media/github.png": "/asgardns-website-react/static/media/github.6d8f058d19819f1667ab.png",
+    "static/media/linux.png": "/asgardns-website-react/static/media/linux.cfe8661f6bfa88010fde.png",
     "static/media/cloud.svg": "/asgardns-website-react/static/media/cloud.4ac3dfd2781413abac7c7074d5934af7.svg",
     "static/media/new_logo.png": "/asgardns-website-react/static/media/new_logo.8bf7cb311299727d3345.png",
     "static/media/gdpr.svg": "/asgardns-website-react/static/media/gdpr.d5dafa36683c62e5268ed1406a94bc89.svg",
     "static/media/ai.svg": "/asgardns-website-react/static/media/ai.ddc91ba37b57eb99811a1fae8c53f688.svg",
     "static/media/security.svg": "/asgardns-website-react/static/media/security.763a63a7a2f21cb1f936c6cf094b7885.svg",
     "index.html": "/asgardns-website-react/index.html",
-    "main.3dbb0488.css.map": "/asgardns-website-react/static/css/main.3dbb0488.css.map",
-    "main.0f611003.js.map": "/asgardns-website-react/static/js/main.0f611003.js.map",
+    "main.cd824e0a.css.map": "/asgardns-website-react/static/css/main.cd824e0a.css.map",
+    "main.5984016e.js.map": "/asgardns-website-react/static/js/main.5984016e.js.map",
     "787.d384a8a7.chunk.js.map": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dbb0488.css",
-    "static/js/main.0f611003.js"
+    "static/css/main.cd824e0a.css",
+    "static/js/main.5984016e.js"
   ]
 }
