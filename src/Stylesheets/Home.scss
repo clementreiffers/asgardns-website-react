@@ -54,9 +54,13 @@
 }
 
 .github-btn {
-  background-color: black;
-  color: white;
   padding: 10px;
+}
+
+.github-btn:hover {
+  img {
+    filter: invert(1);
+  }
 }
 
 @media screen and (max-width: $small-screen) {
@@ -122,6 +126,8 @@
 
 .important-content .inline {
   display: inline-flex;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .inline-left {

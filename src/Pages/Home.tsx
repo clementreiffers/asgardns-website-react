@@ -6,37 +6,45 @@ import ai from "../Images/ai.svg";
 import gdpr from "../Images/gdpr.svg";
 import cloud from "../Images/cloud.svg";
 import logo from "../Images/new_logo.png";
+import github from "../Images/github.png";
+import linux from "../Images/linux.png";
 
 const WindowIcon = (
-  <img src={WIN.img} alt={""} style={{ width: 25, verticalAlign: "middle" }} />
+  <img
+    src={WIN.img}
+    alt={""}
+    style={{ width: 25, verticalAlign: "middle", padding: 10 }}
+  />
 );
 
 const MacOSIcon = (
   <img
     src={MACOS.img}
     alt={""}
-    style={{ width: 25, verticalAlign: "middle" }}
+    style={{ width: 25, verticalAlign: "middle", padding: 10 }}
   />
 );
 
 const LinuxIcon = (
   <img
-    src={LINUX.img}
+    src={linux}
     alt={""}
-    style={{ filter: "invert(1)", width: 25, verticalAlign: "middle" }}
+    style={{
+      width: 25,
+      verticalAlign: "middle",
+      padding: 10,
+    }}
   />
 );
 
 const GitHubIcon = () => (
   <img
-    src={
-      "https://th.bing.com/th/id/R.9230943f4e960d4311f3c8b9c28d92ab?rik=SCK0sB8EXFwNkA&pid=ImgRaw&r=0"
-    }
+    src={github}
     alt={""}
     style={{
-      filter: "invert(1)",
       width: 25,
       verticalAlign: "middle",
+      padding: 10,
     }}
   />
 );
@@ -81,6 +89,7 @@ const Home = () => {
               <a
                 className={"github-btn"}
                 href={"https://github.com/clementreiffers/dns-server"}
+                style={{ textDecoration: "none" }}
               >
                 <GitHubIcon />
                 See our GitHub
