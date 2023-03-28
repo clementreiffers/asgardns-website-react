@@ -80,3 +80,66 @@
 .content .right img {
   width: 500px;
 }
+
+
+.main-title {
+  background-color: white;
+}
+
+.important, .important-content {
+  border-radius: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.important-title {
+  background-color: #003a64;
+  color: #ff9900;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.important-content {
+  background-color: white;
+  border: #003a64;
+  box-shadow: -1px 2px 5px 1px #003a64;
+}
+
+.important-content .inline {
+  display: inline-flex;
+}
+
+.inline-left {
+  text-align: left;
+  width: 100%;
+}
+
+.inline-right {
+  right: 0;
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+
+
+.inline-right, .inline-left {
+  @media screen and (max-width: $small-screen) {
+    text-align: left;
+    float: left;
+    padding: 30px;
+  }
+}
+
+.image-container {
+  @media screen and (max-width: $small-screen) {
+    display: none;
+  }
+}
+
+.inline-right img, .inline-left img {
+  width: 250px;
+  @media screen and (max-width: $small-screen) {
+    display: none;
+    width: 0;
+  }
+}

@@ -1,6 +1,10 @@
 import React from "react";
 import "../Stylesheets/Home.scss";
 import { LINUX, MACOS, WIN } from "../Constants";
+import security from "../Images/security.svg";
+import ai from "../Images/ai.svg";
+import gdpr from "../Images/gdpr.svg";
+import cloud from "../Images/cloud.svg";
 
 const WindowIcon = (
   <img src={WIN.img} alt={""} style={{ width: 25, verticalAlign: "middle" }} />
@@ -81,12 +85,56 @@ const Home = () => {
               </a>
             </div>
             <div>
-              <h2 className={"important-title"}>
-                Protect Yourself from internet Threat
-              </h2>
-              <h2 className={"important-title"}>Boosted by AI</h2>
-              <h2 className={"important-title"}>Respect RGPD</h2>
-              <h2 className={"important-title"}>Computed by cloud</h2>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>
+                  Protect Yourself from internet Threat
+                </h2>
+                <div className={"inline"}>
+                  <p className={"inline-left"}>
+                    By using our system, you will be protected from all bad
+                    things on internet such as malwares and other.
+                  </p>
+                  <div className={"inline-right image-container"}>
+                    <img src={security} alt={""} />
+                  </div>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Boosted by AI</h2>
+                <div className={"inline"}>
+                  <div className={"inline-left image-container"}>
+                    <img src={ai} alt={""} />
+                  </div>
+                  <p className={"inline-right"}>
+                    Everything is analyzed upstream. By this way you will be
+                    protected from all Malwares.
+                  </p>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Respect GDPR</h2>
+                <div className={"inline"}>
+                  <p className={"inline-left"}>
+                    We'll Never collect any data on users. We only analyze URLs
+                    that our system doesn't know.
+                  </p>
+                  <div className={"inline-right image-container"}>
+                    <img src={gdpr} alt={""} />
+                  </div>
+                </div>
+              </div>
+              <div className={"important-content"}>
+                <h2 className={"important-title"}>Computed by cloud</h2>
+                <div className={"inline"}>
+                  <div className={"inline-left image-container"}>
+                    <img src={cloud} alt={""} />
+                  </div>
+                  <p className={"inline-right"}>
+                    All calculations are made in an AWS Cloud, by this way
+                    you'll be never impacted by any calculation time!
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

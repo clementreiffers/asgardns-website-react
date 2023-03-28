@@ -1,11 +1,11 @@
 @import "shared";
 
 .banner {
-  width: 100%;
   color: black;
   display: inline-flex;
   font-family: $main-title;
   backdrop-filter: blur(10px);
+  width: 100%;
   position: fixed;
 }
 
@@ -49,3 +49,4 @@
 .link-banner {
   color: $main-color;
 }
+
