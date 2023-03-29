@@ -53,7 +53,7 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-    <div className={"footer-name"}>AsagarDNS | 2023</div>
+    <div className={"footer-name"}>AsgarDNS | 2023</div>
   </div>
 );
 
