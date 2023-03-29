@@ -115,7 +115,7 @@ const Home = () => {
                     <div className={"inline"}>
                       <p className={"inline-left"}>
                         By using our system, you will be protected from all bad
-                        things on internet such as malwares and other.
+                        things on the internet such as malwares and others.
                       </p>
                       <div className={"inline-right image-container"}>
                         <img src={security} alt={""} />
@@ -131,7 +131,7 @@ const Home = () => {
                         <img src={ai} alt={""} />
                       </div>
                       <p className={"inline-right"}>
-                        Everything is analyzed upstream. By this way you will be
+                        Everything is analyzed upstream. This way you will be
                         protected from all Malwares.
                       </p>
                     </div>
@@ -142,7 +142,7 @@ const Home = () => {
                     <h2 className={"important-title"}>Respect GDPR</h2>
                     <div className={"inline"}>
                       <p className={"inline-left"}>
-                        We'll Never collect any data on users. We only analyze
+                        We'll never collect any data on users. We only analyze
                         URLs that our system doesn't know.
                       </p>
                       <div className={"inline-right image-container"}>
@@ -159,7 +159,7 @@ const Home = () => {
                         <img src={cloud} alt={""} />
                       </div>
                       <p className={"inline-right"}>
-                        All calculations are made in an AWS Cloud, by this way
+                        All calculations are made in an AWS Cloud, this way
                         you'll be never impacted by any calculation time!
                       </p>
                     </div>
