@@ -27,11 +27,6 @@ const Footer = () => (
         GitHub links relatives to project:
         <ul>
           <li>
-            <a href={"https://github.com/clementreiffers/AI-network-analysis"}>
-              The AI
-            </a>
-          </li>
-          <li>
             <a
               href={"https://github.com/maaelle/architecture_network_analysis"}
             >
@@ -41,6 +36,11 @@ const Footer = () => (
           <li>
             <a href={"https://github.com/clementreiffers/dns-server"}>
               The CLI app
+            </a>
+          </li>
+          <li>
+            <a href={"https://github.com/clementreiffers/AI-network-analysis"}>
+              The AI
             </a>
           </li>
           <li>

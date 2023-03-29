@@ -5,9 +5,11 @@ import security from "../Images/security.svg";
 import ai from "../Images/ai.svg";
 import gdpr from "../Images/gdpr.svg";
 import cloud from "../Images/cloud.svg";
-import logo from "../Images/new_logo.png";
 import github from "../Images/github.png";
 import linux from "../Images/linux.png";
+import logo from "../Images/new_logo.png";
+import "@splidejs/react-splide/css";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 const WindowIcon = (
   <img
@@ -75,9 +77,9 @@ const Home = () => {
     <div className={"home"}>
       <div className={"content"}>
         <div className={"left"}>
-          <img src={logo} alt={""} className={"content-logo"} />
           <div className={"content-left"}>
             <h1 className={"main-title"}>
+              <img src={logo} alt={""} className={"content-logo-home"} />
               Asgar<span className={"asgard-dns-name"}>DNS</span>: Your shield
               against online threats
             </h1>
@@ -96,56 +98,74 @@ const Home = () => {
               </a>
             </div>
             <div>
-              <div className={"important-content"}>
-                <h2 className={"important-title"}>
-                  Protect Yourself from internet Threat
-                </h2>
-                <div className={"inline"}>
-                  <p className={"inline-left"}>
-                    By using our system, you will be protected from all bad
-                    things on internet such as malwares and other.
-                  </p>
-                  <div className={"inline-right image-container"}>
-                    <img src={security} alt={""} />
+              <Splide
+                options={{
+                  rewind: true,
+                  type: "loop",
+                  fixedWidth: "100%",
+                  autoplay: true,
+                }}
+                aria-label="React Splide Example"
+              >
+                <SplideSlide>
+                  <div className={"important-content"}>
+                    <h2 className={"important-title"}>
+                      Protect Yourself from internet Threat
+                    </h2>
+                    <div className={"inline"}>
+                      <p className={"inline-left"}>
+                        By using our system, you will be protected from all bad
+                        things on internet such as malwares and other.
+                      </p>
+                      <div className={"inline-right image-container"}>
+                        <img src={security} alt={""} />
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className={"important-content"}>
-                <h2 className={"important-title"}>Boosted by AI</h2>
-                <div className={"inline"}>
-                  <div className={"inline-left image-container"}>
-                    <img src={ai} alt={""} />
+                </SplideSlide>
+                <SplideSlide>
+                  <div className={"important-content"}>
+                    <h2 className={"important-title"}>Boosted by AI</h2>
+                    <div className={"inline"}>
+                      <div className={"inline-left image-container"}>
+                        <img src={ai} alt={""} />
+                      </div>
+                      <p className={"inline-right"}>
+                        Everything is analyzed upstream. By this way you will be
+                        protected from all Malwares.
+                      </p>
+                    </div>
                   </div>
-                  <p className={"inline-right"}>
-                    Everything is analyzed upstream. By this way you will be
-                    protected from all Malwares.
-                  </p>
-                </div>
-              </div>
-              <div className={"important-content"}>
-                <h2 className={"important-title"}>Respect GDPR</h2>
-                <div className={"inline"}>
-                  <p className={"inline-left"}>
-                    We'll Never collect any data on users. We only analyze URLs
-                    that our system doesn't know.
-                  </p>
-                  <div className={"inline-right image-container"}>
-                    <img src={gdpr} alt={""} />
+                </SplideSlide>
+                <SplideSlide>
+                  <div className={"important-content"}>
+                    <h2 className={"important-title"}>Respect GDPR</h2>
+                    <div className={"inline"}>
+                      <p className={"inline-left"}>
+                        We'll Never collect any data on users. We only analyze
+                        URLs that our system doesn't know.
+                      </p>
+                      <div className={"inline-right image-container"}>
+                        <img src={gdpr} alt={""} />
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div className={"important-content"}>
-                <h2 className={"important-title"}>Computed by cloud</h2>
-                <div className={"inline"}>
-                  <div className={"inline-left image-container"}>
-                    <img src={cloud} alt={""} />
+                </SplideSlide>
+                <SplideSlide>
+                  <div className={"important-content"}>
+                    <h2 className={"important-title"}>Computed by cloud</h2>
+                    <div className={"inline"}>
+                      <div className={"inline-left image-container"}>
+                        <img src={cloud} alt={""} />
+                      </div>
+                      <p className={"inline-right"}>
+                        All calculations are made in an AWS Cloud, by this way
+                        you'll be never impacted by any calculation time!
+                      </p>
+                    </div>
                   </div>
-                  <p className={"inline-right"}>
-                    All calculations are made in an AWS Cloud, by this way
-                    you'll be never impacted by any calculation time!
-                  </p>
-                </div>
-              </div>
+                </SplideSlide>
+              </Splide>
             </div>
           </div>
         </div>

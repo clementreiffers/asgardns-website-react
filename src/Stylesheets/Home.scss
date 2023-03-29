@@ -54,13 +54,9 @@
 }
 
 .github-btn {
+  background-color: black;
+  color: white;
   padding: 10px;
-}
-
-.github-btn:hover {
-  img {
-    filter: invert(1);
-  }
 }
 
 @media screen and (max-width: $small-screen) {
@@ -71,10 +67,6 @@
   }
 }
 
-.github-btn:hover {
-  background-color: white;
-  color: black;
-}
 
 .content .content-left {
   padding-bottom: 10%;
@@ -115,6 +107,9 @@
   color: #ff9900;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  @media screen and (max-width: $small-screen) {
+    font-size: 40px;
+  }
 }
 
 .important-content {
@@ -122,6 +117,9 @@
   border: #003a64;
   box-shadow: -1px 2px 5px 1px #003a64;
   color: #003a64;
+  @media screen and (max-width: $small-screen) {
+    font-size: 30px;
+  }
 }
 
 .important-content .inline {
@@ -147,7 +145,7 @@
   @media screen and (max-width: $small-screen) {
     text-align: left;
     float: left;
-    padding: 30px;
+    padding: 0;
   }
 }
 
@@ -169,11 +167,9 @@
   background-color: #e0f2ff;
 }
 
-.content-logo {
-  background-color: white;
-  border-radius: 100px;
-  width: 15%;
-  @media screen and (max-width: $small-screen) {
-    display: none;
-  }
+.content-logo-home {
+  width: 9%;
+  vertical-align: middle;
+  padding: 10px;
+  backdrop-filter: blur(15px);
 }
