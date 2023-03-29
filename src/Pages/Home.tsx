@@ -5,9 +5,9 @@ import security from "../Images/security.svg";
 import ai from "../Images/ai.svg";
 import gdpr from "../Images/gdpr.svg";
 import cloud from "../Images/cloud.svg";
-import logo from "../Images/new_logo.png";
 import github from "../Images/github.png";
 import linux from "../Images/linux.png";
+import logo from "../Images/new_logo.png";
 
 const WindowIcon = (
   <img
@@ -75,9 +75,9 @@ const Home = () => {
     <div className={"home"}>
       <div className={"content"}>
         <div className={"left"}>
-          <img src={logo} alt={""} className={"content-logo"} />
           <div className={"content-left"}>
             <h1 className={"main-title"}>
+              <img src={logo} alt={""} className={"content-logo-home"} />
               Asgar<span className={"asgard-dns-name"}>DNS</span>: Your shield
               against online threats
             </h1>
