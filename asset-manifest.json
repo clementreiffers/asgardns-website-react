@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asgardns-website-react/static/css/main.0d7ee919.css",
-    "main.js": "/asgardns-website-react/static/js/main.6c55ef10.js",
+    "main.css": "/asgardns-website-react/static/css/main.03ccbf28.css",
+    "main.js": "/asgardns-website-react/static/js/main.b64a2cfa.js",
     "static/js/787.d384a8a7.chunk.js": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js",
     "static/media/github.png": "/asgardns-website-react/static/media/github.6d8f058d19819f1667ab.png",
     "static/media/linux.png": "/asgardns-website-react/static/media/linux.cfe8661f6bfa88010fde.png",
@@ -11,12 +11,12 @@
     "static/media/ai.svg": "/asgardns-website-react/static/media/ai.ddc91ba37b57eb99811a1fae8c53f688.svg",
     "static/media/security.svg": "/asgardns-website-react/static/media/security.763a63a7a2f21cb1f936c6cf094b7885.svg",
     "index.html": "/asgardns-website-react/index.html",
-    "main.0d7ee919.css.map": "/asgardns-website-react/static/css/main.0d7ee919.css.map",
-    "main.6c55ef10.js.map": "/asgardns-website-react/static/js/main.6c55ef10.js.map",
+    "main.03ccbf28.css.map": "/asgardns-website-react/static/css/main.03ccbf28.css.map",
+    "main.b64a2cfa.js.map": "/asgardns-website-react/static/js/main.b64a2cfa.js.map",
     "787.d384a8a7.chunk.js.map": "/asgardns-website-react/static/js/787.d384a8a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d7ee919.css",
-    "static/js/main.6c55ef10.js"
+    "static/css/main.03ccbf28.css",
+    "static/js/main.b64a2cfa.js"
   ]
 }
